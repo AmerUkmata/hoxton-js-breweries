@@ -139,9 +139,9 @@ mainEl?.append(articleEl)
 
 
 function getBreweriesForState () {
-// find breweries in this state
-// put them in state
-// rerender
+// find breweries in this state ✅
+// put them in state ✅
+// rerender ✅
 let filteredBreweries= state.breweries.filter(brewery => {
     return brewery.state === state.USState
 })
